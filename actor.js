@@ -1,6 +1,6 @@
 <!-- see more-->
 function seeall(){
-location.assign("/spark/404pagenotfound.html");
+location.assign("/spark/actor.html");
 }
 <!--actors-->
 
