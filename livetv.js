@@ -1,3 +1,34 @@
+function andtv(){
+location.assign("/spark/andtv.html");
+}
+function asianetnewskannada(){
+location.assign("/spark/asianetnewskannada.html");
+}
+function asianetnewstamil(){
+location.assign("/spark/asianetnewstamil.html");
+}
+function ayushtv(){
+location.assign("/spark/ayushtv.html");
+}
+function balleballe(){
+location.assign("/spark/balleballe.html");
+}
+function bbcnewsasiapacific(){
+location.assign("/bbcnewsasiapacific.html");
+}
+function bharatsamachar(){
+location.assign("/spark/bharatsamachar.html");
+}
+function apnapunjab(){
+location.assign("/spark/apnapunjab.html");
+}
+function abntvindia(){
+location.assign("/spark/abntvindia.html");
+}
+
+function abptvindia(){
+location.assign("/spark/abptvindia.html");
+}
 function abpganga(){
 location.assign("/spark/abpganga.html");
 }
