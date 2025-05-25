@@ -1,6 +1,9 @@
 function andtv(){
 location.assign("/spark/andtv.html");
 }
+function cartoonnetwork(){
+location.assign("/spark/cartoonnetwork.html");
+}
 function diseny(){
 location.assign("/spark/diseny.html");
 }
