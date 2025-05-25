@@ -1,6 +1,22 @@
 function andtv(){
 location.assign("/spark/andtv.html");
 }
+function cartoonnetwork(){
+location.assign("/spark/cartoonnetwork.html");
+}
+function nickelodeon(){
+location.assign("/spark/nickelodeon.html");
+}
+function pogo(){
+location.assign("/spark/pogo.html");
+}
+function discovery(){
+location.assign("/spark/discovery.html");
+}
+function tlchd(){
+location.assign("/spark/tlchd.html");
+}
+
 function asianetnewskannada(){
 location.assign("/spark/asianetnewskannada.html");
 }
@@ -14,7 +30,7 @@ function balleballe(){
 location.assign("/spark/balleballe.html");
 }
 function bbcnewsasiapacific(){
-location.assign("/bbcnewsasiapacific.html");
+location.assign("/spark/bbcnewsasiapacific.html");
 }
 function bharatsamachar(){
 location.assign("/spark/bharatsamachar.html");
