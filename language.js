@@ -8,10 +8,10 @@ location.assign("/spark/actor.html");
 location.assign("/spark/punjabi.html");
 }
 function south(){
-location.assign("/spark/404pagenotfound.html");
+location.assign("/spark/south.html");
 }
 function bolllywood(){
-location.assign("/spark/404pagenotfound.html");
+location.assign("/spark/bollywood.html");
 }
 function marathi(){
 location.assign("/spark/404pagenotfound.html");
