@@ -1,0 +1,1 @@
+document.getElementById("bollywood").innerHTML="<div id='gallery' class='gallery'>	                                                                      <div class='image-item'>            <img src='https://spark00001.github.io//images/mirzapur.png' alt='jaat' onclick='m_s1();'> <p>MIRZAPUR<BR>SEASON 1<br>()</p>        </div> </div>";
