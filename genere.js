@@ -1,37 +1,56 @@
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='webseries'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
 
 function language(){
 var lang = document.getElementById("genere").value;
 if(lang == "all"){
 document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
 }
+if(lang == "webseries"){
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+
+
+document.getElementById("home").style.display="none";
+document.getElementById("bollywood").style.display="none";
+document.getElementById("south").style.display="none";
+document.getElementById("hollywood").style.display="none";
+} 
+
 if(lang == "punjabi"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+document.getElementById("south").style.display="none";
+document.getElementById("bollywood").style.display="none";
+document.getElementById("hollywood").style.display="none";
+document.getElementById("webseries").style.display="none";
 }
 if(lang == "south"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='home'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
 document.getElementById("home").style.display="none";
 document.getElementById("bollywood").style.display="none";
 document.getElementById("hollywood").style.display="none";
+document.getElementById("webseries").style.display="none";
 }
 if(lang == "bollywood"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='home'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
 document.getElementById("home").style.display="none";
 document.getElementById("south").style.display="none";
 document.getElementById("hollywood").style.display="none";
-
+document.getElementById("webserieS").style.display="none";
 }
 if(lang == "hollywood"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b><br><br><p id='home'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
 
 document.getElementById("home").style.display="none";
 document.getElementById("bollywood").style.display="none";
 document.getElementById("south").style.display="none";
-
+document.getElementById("webseries").style.display="none";
 } 
+
+document.getElementById("webseries").innerHTML="<div id='gallery' class='gallery'>	                                                                      <div class='image-item'>            <img src='https://spark00001.github.io//images/mirzapur.png' alt='jaat' onclick='m_s1();'> <p>MIRZAPUR<BR>SEASON 1<br>()</p>        </div> </div>";
+
+
 document.getElementById("home").innerHTML="                                                                <div id='gallery' class='gallery'>                            <div class='image-item'><img src='/punjabi/lover.png' style='border-radius:;' onclick='lover();'><p>LOVER<br>(2022)</p></div>                                     <div class='image-item'><img src='/punjabi/illti.png' style='border-radius:;' onclick='illti();'><p>ILLTI<br>(2025)</p></div>             			                                            <div class='image-item'><img src='/punjabi/lekh.png' style='border-radius:;' onclick='lekh();'><p>LEKH<br>(2022)</p></div>  						                           <div class='image-item'><img src='/punjabi/sufna.png' style='border-radius:;' onclick='sufna();'><p>SUFNA<br>(2020)</p></div> 						                           <div class='image-item'><img src='/punjabi/oye_makhna.png' style='border-radius:;' onclick='oye_makhna();'><p>OYE MAKHNA<br>(2022)</p></div>                                                              <div class='image-item'><img src='/punjabi/guddian_patole.png' style='border-radius:;' onclick='guddyan_patola();'><p>GUDDIYAN<br>PATOLE<br>(2019)</p></div>     <div class='image-item'><img src='/punjabi/mitran_da_naa_chalda.png' style='border-radius:;' onclick='mitran_da_nss_chalda();'><p>MITTRAN DA<br>NAA CHALDA<br>(2023)</p></div>	                   <div class='image-item'><img src='/punjabi/qismat.png' style='border-radius:;' onclick='qismat();'><p>QISMAT<br>(2018)</p></div>					                                   <div class='image-item'><img src='/punjabi/qismat2.png' style='border-radius:;' onclick='qismattwo();'><p>QISMAT 2<br>(2021)</p></div>";
 
 
