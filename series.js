@@ -1,0 +1,3 @@
+function campusdiaries(){
+    document.getElementById("srchs").innerHTML="<head><style>    .results{        height:200px;        width:150px;        border:3px solid gold;        outline:4px solid white;    }    .results:hover{        border:3px solid white;        border-radius:20px;        outline:4px solid orange;    }</style></head><body><table>    <tr></tr>        <td>            <img src='https://spark00001.github.io//images/campus_diaries.png' class='results'>        </td>        <td>            CAMPUS DIARIES<br>(SEASON 1)-2022        </td>    </tr></table></body>";  document.getElementById("mainhub").style.display="none";
+ }
