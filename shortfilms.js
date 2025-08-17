@@ -1,0 +1,1 @@
+document.getElementById("shortfilms").innerHTML="<div id='gallery' class='gallery'>    <!--2025-->	   <div class='image-item'>            <img src='/shortfilms/aaina.png' alt='aaina' onclick='aaina();'> <p>AAINA <BR>(2024)</p>        </div>  </div>";
