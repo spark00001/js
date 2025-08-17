@@ -1,10 +1,19 @@
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='webseries'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='webseries'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
 
 function language(){
 var lang = document.getElementById("genere").value;
 if(lang == "alls"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
 }
+ if(lang == "shortfilms"){
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+
+
+document.getElementById("home").style.display="none";
+document.getElementById("bollywood").style.display="none";
+document.getElementById("south").style.display="none";
+document.getElementById("hollywood").style.display="none";
+} 
 if(lang == "webseries"){
 document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
@@ -47,6 +56,9 @@ document.getElementById("bollywood").style.display="none";
 document.getElementById("south").style.display="none";
 document.getElementById("webseries").style.display="none";
 } 
+
+ document.getElementById("shortfilms").innerHTML="<div id='gallery' class='gallery'>    <!--2025-->	   <div class='image-item'>            <img src='/shortfilms/aaina.png' alt='aaina' onclick='aaina();'> <p>AAINA <BR>(2024)</p>        </div>  </div>";
+
 
 document.getElementById("webseries").innerHTML="<div id='gallery' class='gallery'>                                                                                    <div class='image-item'>            <img src='/images/head_over_heels.png' alt='head over heels' onclick='head_over_heels();'> <p>HEAD OVER HEELS<BR>SEASON 1<br>(2025)</p>        </div>	<div class='image-item'>            <img src='/images/good_boy.png' alt='GOOD BOY' onclick='good_boy();'> <p>GOOD BOY<BR>SEASON 1<br>(2025)</p>        </div>	<div class='image-item'>            <img src='/south/live_telecast.png' alt='live telecast' onclick='live_telecast();'> <p>LIVE TELECAST<BR>SEASON 1<br>(2021)</p>        </div>	<div class='image-item'>            <img src='' alt='' onclick=''> <p></p>        </div>	                     <div class='image-item'>            <img src='https://spark00001.github.io//images/campus_diaries.png' alt='CAMPUS DIARiES' onclick='campus_diaries();'> <p>CAMPUS DIARIES<BR>SEASON 1<br>(2022)</p>        </div>	                                                                      <div class='image-item'>            <img src='https://spark00001.github.io//images/mirzapur.png' alt='MIRZAPUR SEASON 2' onclick='m_s1();'> <p>MIRZAPUR<BR>SEASON 1<br>(2018)</p>        </div> </div>";
 
