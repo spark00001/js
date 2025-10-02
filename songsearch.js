@@ -10,7 +10,7 @@
     }
         function songs(){
         var takesong = document.getElementById("inputaudio").value;
-        if(takesong.toLowerCase() == "aye khuda"){
+        if(takesong.toLowerCase() == "aye khuda" || takesong.toLowerCase() == "a" || takesong.toLowerCase() == "y" || takesong.toLowerCase() == "e" || takesong.toLowerCase() == "k" || takesong.toLowerCase() == "h" || takesong.toLowerCase() == "u" || takesong.toLowerCase() == "d" || takesong.toLowerCase() == "a" || takesong.toLowerCase() == "murder 2" || takesong.toLowerCase() == "murder2" ){
             document.getElementById("audio").innerHTML="<div id='song' id='play1'><table><tr><td><p id='titleimg' onclick='ayekhuda()'><img src='https://i.ytimg.com/vi/v0biEkJ9Uv8/sddefault.jpg' class='music'></p></td><td><p id='mtitle' onclick='ayekhuda()'>AYE KHUDA</p></td><td><p id='ayekhuda_button'></p></td><td onclick='d_ayekhuda()'><i class='fa fa-download' style='font-size:px;background-color:gold;'></i>DOWNLOAD</td></tr></table></div>";
         }
         if(takesong.toLowerCase() == "murder2"){
