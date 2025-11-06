@@ -24,11 +24,12 @@ document.getElementById("developer").innerHTML="<u><i style='color:gold;font-siz
 const d6 = setTimeout(name6,1000);
 }
 function name6(){
-document.getElementById("developer").innerHTML="<u><i style='color:gold;font-size:;'>MADE  WITH &#129505; BY::</i></u><br><b>SMARAK & SANJIV</B>";
+document.getElementById("developer").innerHTML="<u><i style='color:gold;font-size:;'>MADE  WITH &#129505; BY::</i></u><br><b>SMARAK</B>";
 const d7 = setTimeout(name7,1000);
 }
 function name7(){
-document.getElementById("developer").innerHTML="<u><i style='color:gold;font-size:;'>MADE  WITH &#129505; BY::</i></u><br><b>SMARAK & SANJIV</B>";
+document.getElementById("developer").innerHTML="<u><i style='color:gold;font-size:;'>MADE  WITH &#129505; BY::</i></u><br><b>SMARAK</B>";
 const d1 = setTimeout(programmed,5000);}
+
 
 
