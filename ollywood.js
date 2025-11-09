@@ -1,1 +1,1 @@
-document.getElementById("ollywood").innerHTML="<div id='gallery' class='gallery'>  <div class='image-item'>            <img src='/ollywood/karma.png' alt='kabhi main kabhi tum' onclick='karma();'> <p>KARMA<BR>(2024)</p>        </div>   </div>";
+document.getElementById("ollywood").innerHTML="<div id='gallery' class='gallery'>  <div class='image-item'>            <img src='/ollywood/karma.png' alt='karma' onclick='karma();'> <p>KARMA<BR>(2024)</p>        </div>   </div>";
