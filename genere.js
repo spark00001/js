@@ -1,13 +1,25 @@
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PAK DRAMA</b><br><br><p id='pakdrama'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='webseries'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>OLLYWOOD</b><br><br><p id='ollywood'></p><br><br>          <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PAK DRAMA</b><br><br><p id='pakdrama'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='webseries'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
 
 function language(){
 var lang = document.getElementById("genere").value;
 if(lang == "alls"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PAK DRAMA</b><br><br><p id='pakdrama'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='webseries'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>OLLYWOOD</b><br><br><p id='ollywood'></p><br><br>          <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PAK DRAMA</b><br><br><p id='pakdrama'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><br><p id='webseries'></p><br>       <b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='south'></p><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='bollywood'></p><br><br><b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b> <br><br>       <!--2022--><p id='hollywood'></p><br>";
 }
- if(lang == "pakdrama"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PAK DRAMA</b><br><br><p id='pakdrama'></p><br><br><p id='shortfilms'></p><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+  if(lang == "ollywood"){
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>OLLYWOOD</b><br><br><p id='ollywood'></p><br><br><p id='pakdrama'></p><br><br><p id='shortfilms'></p><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
+   document.getElementById("pakdrama").style.display="none";
+ document.getElementById("shortfilms").style.display="none";
+document.getElementById("webseries").style.display="none";
+document.getElementById("home").style.display="none";
+document.getElementById("bollywood").style.display="none";
+document.getElementById("south").style.display="none";
+document.getElementById("hollywood").style.display="none";
+} 
+ if(lang == "pakdrama"){
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PAK DRAMA</b><br><br><p id='pakdrama'></p><br><br><p id='ollywood'></p><br><br><p id='shortfilms'></p><br><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+
+  document.getElementById("ollywood").style.display="none";
  document.getElementById("shortfilms").style.display="none";
 document.getElementById("webseries").style.display="none";
 document.getElementById("home").style.display="none";
@@ -16,8 +28,9 @@ document.getElementById("south").style.display="none";
 document.getElementById("hollywood").style.display="none";
 } 
  if(lang == "shortfilms"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><br><p id='pakdrama'></p><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SHORT FILMS</b><br><br><p id='shortfilms'></p><br><br><p id='ollywood'></p><br><br><p id='pakdrama'></p><br><p id='home'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
+  document.getElementById("ollywood").style.display="none";
  document.getElementById("pakdrama").style.display="none";
 document.getElementById("webseries").style.display="none";
 document.getElementById("home").style.display="none";
@@ -26,8 +39,9 @@ document.getElementById("south").style.display="none";
 document.getElementById("hollywood").style.display="none";
 } 
 if(lang == "webseries"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><p id='pakdrama'></p><br><p id='home'></p><br><p id='webseries'></p><br><p id='shortfilms'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>WEBSERIES</b><br><p id='pakdrama'></p><br><p id='home'></p><br><p id='webseries'></p><br><br><p id='ollywood'></p><br><p id='shortfilms'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
+ document.getElementById("ollywood").style.display="none";
  document.getElementById("pakdrama").style.display="none";
 document.getElementById("shortfilms").style.display="none";
 document.getElementById("home").style.display="none";
@@ -37,8 +51,9 @@ document.getElementById("hollywood").style.display="none";
 } 
 
 if(lang == "punjabi"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><p id='pakdrama'></p><br><p id='shortfilms'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>PUNJABI</b><br><br><p id='home'></p><br><br><p id='ollywood'></p><br><p id='pakdrama'></p><br><p id='shortfilms'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
+ document.getElementById("ollywood").style.display="none";
  document.getElementById("pakdrama").style.display="none";
  document.getElementById("shortfilms").style.display="none";
  document.getElementById("south").style.display="none";
@@ -47,8 +62,9 @@ document.getElementById("hollywood").style.display="none";
 document.getElementById("webseries").style.display="none";
 }
 if(lang == "south"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='home'></p><br><p id='pakdrama'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='shortfilms'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>SOUTH</b><br><br><p id='home'></p><br><p id='pakdrama'></p><br><p id='webseries'></p><br><p id='south'></p><br><br><p id='ollywood'></p><br><p id='shortfilms'></p><br><p id='bollywood'></p><br><p id='hollywood'></p>";
 
+ document.getElementById("ollywood").style.display="none";
  document.getElementById("pakdrama").style.display="none";
  document.getElementById("shortfilms").style.display="none";
 document.getElementById("home").style.display="none";
@@ -57,8 +73,9 @@ document.getElementById("hollywood").style.display="none";
 document.getElementById("webseries").style.display="none";
 }
 if(lang == "bollywood"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='home'></p><br><p id='pakdrama'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='shortfilms'></p><br><p id='hollywood'></p>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>BOLLYWOOD</b><br><br><p id='home'></p><br><p id='pakdrama'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><br><p id='ollywood'></p><br><p id='shortfilms'></p><br><p id='hollywood'></p>";
 
+ document.getElementById("ollywood").style.display="none";
  document.getElementById("pakdrama").style.display="none";
  document.getElementById("shortfilms").style.display="none";
 document.getElementById("home").style.display="none";
@@ -67,8 +84,9 @@ document.getElementById("hollywood").style.display="none";
 document.getElementById("webseries").style.display="none";
 }
 if(lang == "hollywood"){
-document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b><br><br><p id='home'></p><br><p id='pakdrama'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p><p id='shortfilms'></p><br>";
+document.getElementById("all").innerHTML="<b style='color:gold;width:99%;height:60px;border:1px solid gold;padding:10px;'>HOLLYWOOD</b><br><br><p id='home'></p><br><p id='pakdrama'></p><br><p id='webseries'></p><br><p id='south'></p><br><p id='bollywood'></p><br><p id='hollywood'></p><p id='shortfilms'></p><br><br><p id='ollywood'></p><br>";
 
+ document.getElementById("ollywood").style.display="none";
  document.getElementById("pakdrama").style.display="none";
 document.getElementById("shortfilms").style.display="none";
 document.getElementById("home").style.display="none";
@@ -77,6 +95,9 @@ document.getElementById("south").style.display="none";
 document.getElementById("webseries").style.display="none";
 } 
 <!--genere content-->
+
+ document.getElementById("ollywood").innerHTML="<div id='gallery' class='gallery'>  <div class='image-item'>            <img src='/ollywood/karma.png' alt='kabhi main kabhi tum' onclick='karma();'> <p>KARMA<BR>(2024)</p>        </div>   </div>";
+ 
 document.getElementById("pakdrama").innerHTML="<p id='pakdrama'></p><br><div id='gallery' class='gallery'>  <div class='image-item'>            <img src='/pakdrama/kabhimainkabhitum.png' alt='kabhi main kabhi tum' onclick='kabhimainkabhitum();'> <p>KABHI MAIN <br> KABHI TUM<BR>(2024)</p>        </div>   </div>";
 
  
