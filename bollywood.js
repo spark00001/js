@@ -1,4 +1,4 @@
-const bolly = setTimeout(bollywood,100);
+
 function bollywood(){ 
 document.getElementById("export").innerHTML="<div id='gallery' class='gallery'>    <!--2025-->	 <div class='image-item'>            <img src='/bollywood-/dhanak.png' alt='DHANAK' onclick='dhanak();'> <p>DHANAK<BR>(2015)</p>        </div><div class='image-item'>            <img src='/bollywood-/thedaysoftafree.png' alt='THE DAYS OF TAFREE' onclick='thedaysoftafree();'> <p>THE DAYS OF TAFREE <BR>(2016)</p>        </div>     <div class='image-item'>            <img src='/bollywood-/zora.png' alt='zora' onclick='zora();'> <p>ZORA (2025)</p>        </div>                                                                    <div class='image-item'>            <img src='/images/jaat_poster.png' alt='jaat' onclick='jaat();'> <p>JAAT <BR>(2025)</p>        </div>	                       <div class='image-item'>            <img src='/images/sikandar_poster.png' alt='sikandar' onclick='sikandar();'> <p>SIKANDAR<br>(2025)</p>   </div>   </div>";
 }
