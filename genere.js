@@ -96,7 +96,7 @@ document.getElementById("webseries").style.display="none";
 } 
 <!--genere content-->
 
- document.getElementById("ollywood").innerHTML="<div id='gallery' class='gallery'>  <div class='image-item'>            <img src='/ollywood/karma.png' alt='kabhi main kabhi tum' onclick='karma();'> <p>KARMA<BR>(2024)</p>        </div>   </div>";
+ document.getElementById("ollywood").innerHTML="<div id='gallery' class='gallery'> <div class='image-item'>            <img src='/ollywood/kerek.png' alt='kerek' onclick='kerek();'> <p>KERE<BR>(2025)</p>        </div>           <div class='image-item'>            <img src='/ollywood/karma.png' alt='kabhi main kabhi tum' onclick='karma();'> <p>KARMA<BR>(2024)</p>        </div>   </div>";
  
 document.getElementById("pakdrama").innerHTML="<p id='pakdrama'></p><br><div id='gallery' class='gallery'>  <div class='image-item'>            <img src='/pakdrama/kabhimainkabhitum.png' alt='kabhi main kabhi tum' onclick='kabhimainkabhitum();'> <p>KABHI MAIN <br> KABHI TUM<BR>(2024)</p>        </div>   </div>";
 
