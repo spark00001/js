@@ -1,3 +1,3 @@
 function shorts(){
-location.assign("/shorts/shorts.html");
+location.assign("/spark/shorts.html");
 }
