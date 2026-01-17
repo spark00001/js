@@ -1,4 +1,4 @@
 
-function ollywood(){ 
+export function ollywood(){ 
 document.getElementById("export").innerHTML="<div id='gallery' class='gallery'>                                                                                                     <div class='image-item'>            <img src='/ollywood/boubutubhuta.png' alt='bou butu bhuta' onclick='boubutubhuta();'> <p>BOU BUTU<BR>BHUTA<BR>(2025)</p>        </div>                                                <div class='image-item'>            <img src='/ollywood/kerek.png' alt='kerek' onclick='kerek();'> <p>KERE<BR>(2025)</p>        </div>                                   <div class='image-item'>            <img src='/ollywood/karma.png' alt='karma' onclick='karma();'> <p>KARMA<BR>(2024)</p>        </div>   </div>";
 }
