@@ -1,0 +1,4 @@
+const pullseasons = setTimeout(xokitty,100);
+function xokitty(){ 
+document.getElementById("export").innerHTML="<div id='gallery' class='gallery'>                                                                                                                           <div class='image-item'>            <img src='/images/xokittys3.png' alt='' onclick='xokittys3();'> <p>XO KITTY<br>season 3<BR>(2023)</p>        </div>                                                       <div class='image-item'>            <img src='/images/xokittys2.png' alt='' onclick='xokittys2();'> <p>XO KITTY<br>season 2<BR>(2023)</p>        </div>                                          <div class='image-item'>            <img src='/images/xokittys1.png' alt='' onclick='xokittys1();'> <p>XO KITTY<br>season 1<BR>(2023)</p>        </div></div>";
+}
