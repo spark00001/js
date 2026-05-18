@@ -1,7 +1,7 @@
 function sdb(){
 var querry=document.getElementById("usrquerry").value;
 
-if(toLowercase.querry == "when life gives you tangeries"){
+if(querry.toLowerCase() == "when life gives you tangeries"){
 location.assign("/spark/whenlifegivesyoutangeriesall.html");
 }
 else{
