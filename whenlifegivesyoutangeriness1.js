@@ -10,7 +10,7 @@
      
      
      function s1ep16(){ 
- document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='/info/release.gif' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
+ document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='https://drive.google.com/file/d/10RkvKWDFBh2_msiVMwqzNNmbAPEWXex7/preview' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
  document.getElementById("episode").innerHTML="<p id='episode'><button onclick='refresh()' class='watch-button'>END</button></p>"; 
  document.getElementById("prevepisode").innerHTML="<p id='episode'><button onclick='s1ep15()' class='watch-button'>PREV EPISODE</button></p>";
  document.getElementById("title").innerHTML="<p>CURRENT: S1 EP-16</p>";
@@ -20,7 +20,7 @@
      
      
      function s1ep15(){ 
- document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='/info/release.gif' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
+ document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='https://drive.google.com/file/d/1hvb_pGuX63t1cWBcVGAXC2HyqRawgMsg/preview' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
  document.getElementById("episode").innerHTML="<p id='episode'><button onclick='s1ep16()' class='watch-button'>WATCH EP16</button></p>"; 
  document.getElementById("prevepisode").innerHTML="<p id='episode'><button onclick='s1ep14()' class='watch-button'>PREV EPISODE</button></p>";
  document.getElementById("title").innerHTML="<p>CURRENT: S1 EP-15</p>";
@@ -31,7 +31,7 @@
      
      
      function s1ep14(){ 
- document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='/info/release.gif' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
+ document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='https://drive.google.com/file/d/1QkzUMnoDp-G5iytjLBOLJ9rpUKVDbi_A/preview' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
  document.getElementById("episode").innerHTML="<p id='episode'><button onclick='s1ep15()' class='watch-button'>WATCH EP15</button></p>"; 
  document.getElementById("prevepisode").innerHTML="<p id='episode'><button onclick='s1ep13()' class='watch-button'>PREV EPISODE</button></p>";
  document.getElementById("title").innerHTML="<p>CURRENT: S1 EP-14</p>";
@@ -42,7 +42,7 @@
      
      
      function s1ep13(){ 
- document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='/info/release.gif' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
+ document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='https://drive.google.com/file/d/1svsB4knJ43-3JdrBmzohYvA4gcJXDqt_/preview' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
  document.getElementById("episode").innerHTML="<p id='episode'><button onclick='s1ep14()' class='watch-button'>WATCH EP14</button></p>"; 
  document.getElementById("prevepisode").innerHTML="<p id='episode'><button onclick='s1ep12()' class='watch-button'>PREV EPISODE</button></p>";
  document.getElementById("title").innerHTML="<p>CURRENT: S1 EP-13</p>";
@@ -52,7 +52,7 @@
      
      
      function s1ep12(){ 
- document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='/info/release.gif' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
+ document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='https://drive.google.com/file/d/1L2-1mmJ1yd8AlfsVoPHAEMWqA2MY52fT/preview' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
  document.getElementById("episode").innerHTML="<p id='episode'><button onclick='s1ep13()' class='watch-button'>WATCH EP13</button></p>"; 
  document.getElementById("prevepisode").innerHTML="<p id='episode'><button onclick='s1ep11()' class='watch-button'>PREV EPISODE</button></p>";
  document.getElementById("title").innerHTML="<p>CURRENT: S1 EP-12</p>";
@@ -61,7 +61,7 @@
      
      
      function s1ep11(){ 
- document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='/info/release.gif' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
+ document.getElementById("whenlifegivesyoutangeriness1_main").innerHTML="<iframe class='player' src='https://drive.google.com/file/d/1XHiWvmRkAwNrIkJPqejAoZ5PpeXunJ-P/preview' title='SPARK VIDEO PLAYER' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
  document.getElementById("episode").innerHTML="<p id='episode'><button onclick='s1ep12()' class='watch-button'>WATCH EP12</button></p>"; 
  document.getElementById("prevepisode").innerHTML="<p id='episode'><button onclick='s1ep10()' class='watch-button'>PREV EPISODE</button></p>";
  document.getElementById("title").innerHTML="<p>CURRENT: S1 EP-11</p>";
