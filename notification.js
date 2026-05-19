@@ -2,6 +2,7 @@ document.getElementById("message").innerHTML="<table><tr><td><p id='msg'></p><p 
 
 function finding(){
 document.getElementById("findcontent").innerHTML="<input id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
+document.getElementById("developer").style.display="none"; 
 document.getElementById("mainhub").style.display="none";
 document.getElementById("songsrch").style.display="none";
 document.getElementById("audio").style.display="none";
