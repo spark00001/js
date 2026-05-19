@@ -10,8 +10,7 @@ document.getElementById("spark").style.display="none";
 document.getElementById("msg").style.display="none";
 document.getElementById("mess").innerHTML="<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>";
 document.getElementById("mail").style.display="none";
-
-
+}
 function off(){
 document.getElementById("mess").style.display="none";
 location.reload();
