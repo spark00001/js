@@ -2,19 +2,7 @@ document.getElementById("message").innerHTML="<table><tr><td><p id='msg'></p><p 
 const sdb = setTimeout(finding,100);
 function finding(){
 document.getElementById("findcontent").innerHTML="<input id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
-document.getElementById("developer1").style.display="none"; 
-document.getElementById("mainhub").style.display="none";
-document.getElementById("songsrch").style.display="none";
-document.getElementById("audio").style.display="none";
-document.getElementById("srchs").style.display="none";
-document.getElementById("spark").style.display="none";
-document.getElementById("as").style.display="none";
-  document.getElementById("navbars").style.display="none";
-document.getElementById("message").style.display="none";
-  document.getElementById("upcoming").style.display="none";
-  document.getElementById("actors").style.display="none";
-document.getElementById("catview").style.display="none";
-document.getElementById("export").style.display="none";
+
 document.getElementById("mess").innerHTML="<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>";
 document.getElementById("mail").style.display="none";
 }
