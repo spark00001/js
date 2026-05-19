@@ -1,11 +1,6 @@
 function sdb(){
 var querry=document.getElementById("usrquerry").value;
 
-else{
-document.getElementById("throwout").innerHTML="<div id='result404'></div>";
-}
-
-
 if(querry.toLowerCase() == "when life gives you tangerines"){
 location.assign("/spark/whenlifegivesyoutangerines.html");
 }
@@ -57,5 +52,7 @@ location.assign("/spark/karma.html");
 if(querry.toLowerCase() == "karma"){
 location.assign("/spark/karma.html");
 }
-
+else{
+document.getElementById("throwout").innerHTML="<div id='result404'></div>";
+}
 }
