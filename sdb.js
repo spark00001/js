@@ -5,6 +5,6 @@ if(querry.toLowerCase() == "when life gives you tangeries"){
 location.assign("/spark/whenlifegivesyoutangeriesall.html");
 }
 else{
-document.getElementByid("throwout").innerHTML="not found";
+document.getElementById("throwout").innerHTML="not found";
 }
 }
