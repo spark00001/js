@@ -1,7 +1,7 @@
 document.getElementById("message").innerHTML="<table><tr><td><p id='msg'></p><p id='mess'></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='mail'></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='searchfinder'></p></td><td style='width:10%;'></td><td><p id='developer'></p></td></tr></table>";
 
 function finding(){
-document.getElementById("findcontent").innerHTML="<input id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
+document.getElementById("developer").innerHTML="<input id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
 document.getElementById("mainhub").style.display="none";
 document.getElementById("songsrch").style.display="none";
 document.getElementById("audio").style.display="none";
