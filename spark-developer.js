@@ -1,9 +1,5 @@
 const d1 = setTimeout(programmed,100);
 function programmed(){
-document.getElementById("developer").innerHTML="<p id='developer1'></p><p id='findcontennt'></p>";
-const d2 = setTimeout(name0,2000);
-}
-function name0(){
 document.getElementById("developer1").innerHTML="<u><i style='color:gold;font-size:;'>MADE  WITH &#129505; BY::</i></u><br>";
 const d2 = setTimeout(name,2000);
 }
