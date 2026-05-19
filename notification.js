@@ -1,7 +1,7 @@
 document.getElementById("message").innerHTML="<table><tr><td><p id='msg'></p><p id='mess'></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='mail'></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='searchfinder'></p></td><td style='width:10%;'></td><td><p id='developer'></p></td><td><p id='findcontent'></p></td></tr></table>";
 const sdbar = setTimeout(finding,100);
 function finding(){
-document.getElementById("findcontent").innerHTML="<input id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
+document.getElementById("findcontent").innerHTML="<input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
   
 document.getElementById("mess").innerHTML="<!--<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>-->";
 document.getElementById("mail").style.display="none";
