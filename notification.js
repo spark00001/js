@@ -3,7 +3,7 @@ const sdbar = setTimeout(finding,100);
 function finding(){
 document.getElementById("findcontent").innerHTML="<input id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
   
-document.getElementById("mess").innerHTML="<!--<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>";-->
+document.getElementById("mess").innerHTML="<!--<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>-->";
 document.getElementById("mail").style.display="none";
 }
 function off(){
