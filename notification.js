@@ -24,7 +24,7 @@ location.reload();
 }
 
 
-document.getElementById("searchfinder").innerHTML="<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p>"
+document.getElementById("searchfinder").innerHTML="<!--<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p>-->"
 
 
 document.getElementById("msg").innerHTML="<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p>"
@@ -39,7 +39,7 @@ const dt = new Date();
 document.getElementById("dt").innerHTML=dt;
 }
 function cl(){
-document.getElementById("noti").innerHTML="<table><tr><td><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='mail1'></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p></td></tr></table>";
+document.getElementById("noti").innerHTML="<table><tr><td><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='mail1'></p></td><td>&nbsp;&nbsp;&nbsp;</td><!--<td><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p></td>--></tr></table>";
 document.getElementById("mail1").innerHTML="<a href='mailto:s20512165@gmail.com'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>";
 }
 function chatimg(){
