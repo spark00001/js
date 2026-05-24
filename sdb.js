@@ -20,7 +20,7 @@ if(querry.toLowerCase() == "chiraiya season 1"){
 location.assign("/spark/chiraiyas1.html");
 }
 if(querry.toLowerCase() == "chiraiya"){
-location.assign("/spark/chiraiyall.html");
+location.assign("/spark/chiraiyaall.html");
 }
 if(querry.toLowerCase() == "bhartha mahasayulaku wignyapthi"){
 location.assign("/spark/bharthamahasayulakuwignyapthi.html");
