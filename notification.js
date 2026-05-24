@@ -16,7 +16,7 @@ location.reload();
 document.getElementById("searchfinder").innerHTML="<!--<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p>-->"
 
 
-document.getElementById("msg").innerHTML="<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p>"
+document.getElementById("msg").innerHTML="<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p>";
 
 
 document.getElementById("mail").innerHTML="<a href='mailto:tickets@spark-cfcem5.p.tawk.email' id='t1'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>";
