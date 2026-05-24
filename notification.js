@@ -1,4 +1,6 @@
-document.getElementById("message").innerHTML=`
+<div id="message"></div>
+<script>
+    document.getElementById("message").innerHTML=`
 <table>
 <tr>
 <td>
@@ -14,60 +16,56 @@ document.getElementById("message").innerHTML=`
 &nbsp;&nbsp;&nbsp;
 </td>
 <td>
-<p id='searchfinder'></p>
-</td>
-<td style='width:10%;'>
-</td>
-<td>
-<p id='developer'></p>
-</td>
-<td>
 <p id='findcontent'></p>
 </td>
 </tr>
 </table>
+<div id="notification"></div>
 `;
 const sdbar = setTimeout(finding,100);
 function finding(){
 document.getElementById("findcontent").innerHTML=`
 <input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>
 `;  
-document.getElementById("mess").innerHTML=`<!--<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>-->
+document.getElementById("mess").innerHTML=`<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='finding()'>CLOSE</p>
 `;
 document.getElementById("mail").style.display="";
 document.getElementById("mess").style.display="none";
-document.getElementById("message").style.display="none";
+document.getElementById("message").style.display="";
 document.getElementById("mail").innerHTML=`
-<a href='mailto:s20512165@gmail.com'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>"
-`
+<a href='mailto:s20512165@gmail.com'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>
+`;
 }
 function off(){
 document.getElementById("mess").style.display="none";
 location.reload();
 }
 
+document.getElementById("msg").innerHTML=` <!--
+<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='' onclick='op()'><embed onclick='op()' src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p>
+-->`;
 
-document.getElementById("searchfinder").innerHTML=`
-<!--<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p>-->
+
+document.getElementById("mail").innerHTML=`
+<a href='mailto:tickets@spark-cfcem5.p.tawk.email' id='t1'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>
 `;
 
-document.getElementById("msg").innerHTML="<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p>";
-
-
-document.getElementById("mail").innerHTML="<a href='mailto:tickets@spark-cfcem5.p.tawk.email' id='t1'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>";
-
 function op(){
-document.getElementById("noti").innerHTML="<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='message' onclick='finding()'>CLOSE</p><div style='background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);'><p style='background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); color:black;'>:-) <p  style='background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); color:black;'id='dt'></p><br><b style='background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); color:black;'><u>NOTIFICATION:</u></b><br><b style='background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); color:black;'id='dt'></p><br><b style='background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); color:black;'>SOME CONTENT MAY NOT SUPPORT ON PC.<BR>BUT ALL THE CONTENT CAN STREAMED ON MOBILE.</b><br> <embed src='https://spark00001.github.io/images/qr.png' style='width:100px;height:100px;' download></embed><br><p style='color:black;'>DONATE US( MIN. Rs. 1)</p><br><table><tr><td><button style='background-color:gold;color:black;outline:5px solid black;'>ABOUT SITE</button></td><td><button style='cursor:pointer;background-color:gold;color:black;outline:5px solid black;'>ABOUT DEVELOPER</td><td><button onclick='chatimg()' style='cursor:pointer;background-color:gold;color:black;outline:5px solid black;'>HOW TO CHAT</td></tr></table></br></p></div>";
+document.getElementById("notification").innerHTML=`
+hello world
+`;
 document.getElementById("message").style.display="none";
 const dt = new Date();
 document.getElementById("dt").innerHTML=dt;
 }
 function cl(){
 document.getElementById("findcontent").innerHTML="<input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
-document.getElementById("noti").innerHTML="<table><tr><td><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='mail1'></p></td><td>&nbsp;&nbsp;&nbsp;</td><!--<td><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p></td>--></tr></table>";
+document.getElementById("noti").innerHTML="<table><tr><td><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='mail1'></p></td><td>&nbsp;&nbsp;&nbsp;</td></tr></table>";
 document.getElementById("mail").innerHTML="<a href='mailto:s20512165@gmail.com'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>";
 const sdbar1 = setTimeout(finding,100);
 }
 function chatimg(){
 document.getElementById("noti").innerHTML="<p style='cursor:pointer;padding:10px; background-color:red;color:black; outline:3px solid white;cursor:pointer;' id='message' onclick='cl()'>CLOSE NOTIFICATION &#8657</p><br><button onclick='op()' style='cursor:pointer;background-color:gold;color:black;outline:5px solid black;'>&#8656; PREVIOUS PAGE</button><br><embed src='https://spark00001.github.io/images/chat.png' style='width:99%;height:400px;'></embed><br><table><tr><td><button style='background-color:gold;color:black;outline:5px solid black;'>ABOUT SITE</button></td><td><button style='cursor:pointer;background-color:gold;color:black;outline:5px solid black;'>ABOUT DEVELOPER</td><td><button onclick='chatimg()' style='cursor:pointer;background-color:gold;color:black;outline:5px solid black;'>HOW TO CHAT</button></td></tr></table>";
 }
+
+</script>
