@@ -20,7 +20,6 @@
 </td>
 </tr>
 </table>
-<div id="notification"></div>
 `;
 const sdbar = setTimeout(finding,100);
 function finding(){
