@@ -1,11 +1,43 @@
-document.getElementById("message").innerHTML="<table><tr><td><p id='msg'></p><p id='mess'></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='mail'></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='searchfinder'></p></td><td style='width:10%;'></td><td><p id='developer'></p></td><td><p id='findcontent'></p></td></tr></table>";
+document.getElementById("message").innerHTML=`
+<table>
+<tr>
+<td>
+<p id='msg'></p><p id='mess'></p>
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;
+</td>
+<td>
+<p id='mail'></p>
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;
+</td>
+<td>
+<p id='searchfinder'></p>
+</td>
+<td style='width:10%;'>
+</td>
+<td>
+<p id='developer'></p>
+</td>
+<td>
+<p id='findcontent'></p>
+</td>
+</tr>
+</table>
+`;
 const sdbar = setTimeout(finding,100);
 function finding(){
-document.getElementById("findcontent").innerHTML="<input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
-  
-document.getElementById("mess").innerHTML="<!--<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>-->";
+document.getElementById("findcontent").innerHTML=`
+<input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onkeypress='sdb()' type='search' placeholder='ENTER FULL NAME..'>
+`;  
+document.getElementById("mess").innerHTML=`<!--<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>-->
+`;
 document.getElementById("mail").style.display="";
-document.getElementById("mail").innerHTML="<a href='mailto:s20512165@gmail.com'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>";
+document.getElementById("mail").innerHTML=`
+<a href='mailto:s20512165@gmail.com'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>"
+`
 }
 function off(){
 document.getElementById("mess").style.display="none";
@@ -13,8 +45,9 @@ location.reload();
 }
 
 
-document.getElementById("searchfinder").innerHTML="<!--<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p>-->"
-
+document.getElementById("searchfinder").innerHTML=`
+<!--<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='finding()'><embed src='https://spark00001.github.io/images/search.png' style='width:25px;height:25px;'></embed></p>-->
+`;
 
 document.getElementById("msg").innerHTML="<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p>";
 
