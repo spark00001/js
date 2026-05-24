@@ -145,8 +145,4 @@ location.assign("/spark/mocnknight.html");
 if(querry.toLowerCase() == "halo"){
 location.assign("/spark/halo.html");
 }
-else{
-document.getElementById("throwout").innerHTML="<div id='result404'></div>";
-const clp = setTimeout(clearpage,100);
-}
 }
