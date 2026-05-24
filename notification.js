@@ -1,6 +1,4 @@
-<div id="message"></div>
-<script>
-    document.getElementById("message").innerHTML=`
+document.getElementById("message").innerHTML=`
 <table>
 <tr>
 <td>
@@ -66,5 +64,3 @@ const sdbar1 = setTimeout(finding,100);
 function chatimg(){
 document.getElementById("noti").innerHTML="<p style='cursor:pointer;padding:10px; background-color:red;color:black; outline:3px solid white;cursor:pointer;' id='message' onclick='cl()'>CLOSE NOTIFICATION &#8657</p><br><button onclick='op()' style='cursor:pointer;background-color:gold;color:black;outline:5px solid black;'>&#8656; PREVIOUS PAGE</button><br><embed src='https://spark00001.github.io/images/chat.png' style='width:99%;height:400px;'></embed><br><table><tr><td><button style='background-color:gold;color:black;outline:5px solid black;'>ABOUT SITE</button></td><td><button style='cursor:pointer;background-color:gold;color:black;outline:5px solid black;'>ABOUT DEVELOPER</td><td><button onclick='chatimg()' style='cursor:pointer;background-color:gold;color:black;outline:5px solid black;'>HOW TO CHAT</button></td></tr></table>";
 }
-
-</script>
