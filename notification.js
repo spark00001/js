@@ -35,6 +35,7 @@ document.getElementById("findcontent").innerHTML=`
 document.getElementById("mess").innerHTML=`<!--<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='off()'>CLOSE</p>-->
 `;
 document.getElementById("mail").style.display="";
+document.getElementById("mess").style.display="none";
 document.getElementById("mail").innerHTML=`
 <a href='mailto:s20512165@gmail.com'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>"
 `
