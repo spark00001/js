@@ -1,6 +1,12 @@
 function sdb(){
 var querry=document.getElementById("usrquerry").value;
 
+if(querry.toLowerCase() == "gen z season 1"){
+location.assign("/spark/genzs1.html");
+}
+if(querry.toLowerCase() == "gen z"){
+location.assign("/spark/genz.html");
+}
 if(querry.toLowerCase() == "when life gives you tangerines"){
 location.assign("/spark/whenlifegivesyoutangerines.html");
 }
