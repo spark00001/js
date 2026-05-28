@@ -1,6 +1,8 @@
 function sdb(){
 var querry=document.getElementById("usrquerry").value;
-
+if(querry.toLowerCase() == "hachi" || querry.toLowerCase() == "hachiko"){
+location.assign("https://www.hotstar.com/in/movies/hachi-a-dogs-tale/1271508745");
+}
 if(querry.toLowerCase() == "gen z season 1"){
 location.assign("/spark/genzs1.html");
 }
