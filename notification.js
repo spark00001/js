@@ -22,7 +22,7 @@ document.getElementById("message").innerHTML=`
 const sdbar = setTimeout(finding,100);
 function finding(){
 document.getElementById("findcontent").innerHTML=`
-<input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onsubmit='sdb()' type='search' placeholder='ENTER FULL NAME..'>
+<input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onkeydown='sdb()' type='search' placeholder='ENTER FULL NAME..'>
 `;  
 document.getElementById("mess").innerHTML=`<p style='cursor:pointer;padding:10px; background-color:red;color:white; outline:3px solid white;cursor:pointer;width:50px;height:25px;' id='mess' onclick='finding()'>CLOSE</p>
 `;
@@ -56,7 +56,7 @@ const dt = new Date();
 document.getElementById("dt").innerHTML=dt;
 }
 function cl(){
-document.getElementById("findcontent").innerHTML="<input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onsubmit='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
+document.getElementById("findcontent").innerHTML="<input style='border:2ox solid gold;color:white;background-color:transparent;outline:3px solid white;width:99%;height:45px;' id='usrquerry' onkeydown='sdb()' type='search' placeholder='ENTER FULL NAME..'>";
 document.getElementById("noti").innerHTML="<table><tr><td><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message' onclick='op()'><embed src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p></td><td>&nbsp;&nbsp;&nbsp;</td><td><p id='mail1'></p></td><td>&nbsp;&nbsp;&nbsp;</td></tr></table>";
 document.getElementById("mail").innerHTML="<a href='mailto:s20512165@gmail.com'><p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='message'><embed src='https://spark00001.github.io/images/mail.png' style='width:25px;height:25px;'></embed></p></a>";
 const sdbar1 = setTimeout(finding,100);
