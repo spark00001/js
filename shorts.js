@@ -3,7 +3,7 @@ function shorts(){
 <div id='gallery' class='gallery'> 
 <div class='image-item'>            
 <img src='/images/kingskillercomeback.png' alt='kings killer comeback' onclick='kingskillercomebacks1()'> 
-<p>KINGS KILLER<br>COMEBACK</br><br>(2026)</br></p>        
+<p>KINGS KILLER<br>COMEBACK</p>        
 </div>  
 </div>
 `;
