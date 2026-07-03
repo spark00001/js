@@ -5,6 +5,5 @@ function shorts(){
 <img src='/images/kingskillercomeback.png' alt='kings killer comeback' onclick='kingskillercomeback()'> 
 <p>KINGS KILLER<br>COMEBACK</p>        
 </div>  
-</div>
-`;
+</div>`;
 }
