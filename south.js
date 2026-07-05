@@ -4,7 +4,7 @@ document.getElementById("export").innerHTML=`
 <div id='gallery' class='gallery'>    <!--2025-->   
 
 <div class='image-item'>           
- <img src='/south/blast.png' alt='blast' onclick='blasr();' class='effect'> <p>BLAST<BR>(2026)</p>     
+ <img src='/south/blast.png' alt='blast' onclick='blast();' class='effect'> <p>BLAST<BR>(2026)</p>     
 </div>
 
 <div class='image-item'>           
