@@ -2,6 +2,11 @@
 function southmovies(){ 
 document.getElementById("export").innerHTML=`
 <div id='gallery' class='gallery'>    <!--2025-->   
+
+<div class='image-item'>           
+ <img src='/south/blast.png' alt='blast' onclick='blasr();' class='effect'> <p>BLAST<BR>(2026)</p>     
+</div>
+
 <div class='image-item'>           
  <img src='/south/madeinkorea.png' alt='made in korea' onclick='madeinkorea();' class='effect'> <p>MADE IN<br>KOREA<BR>(2018)</p>     
 </div> 	                                                                                 
