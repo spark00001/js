@@ -1,5 +1,8 @@
 function sdb(){
 var querry=document.getElementById("usrquerry").value;
+if(querry.toLowerCase() == "blast" || querry.toLowerCase() == "blast"){
+location.assign("/spark/blast.html");
+}
 if(querry.toLowerCase() == "hachi" || querry.toLowerCase() == "hachiko"){
 location.assign("/spark/hachi.html");
 }
