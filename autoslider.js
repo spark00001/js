@@ -1,8 +1,14 @@
 document.getElementById("as").innerHTML=`
 <div class='scroll-container'>     
+
+<a href='/spark/blast.html'><img src='/south/blast.png' id='size'></a> 
+
 <a href='/spark/genzs1.html'><img src='/chinese/genz.png' id='size'></a> 
+
 <a href='/spark/whenlifegivesyoutangeriness1.html'><img src='/korean/whenlifegivesyoutangerines.png' id='size'></a>   
+
 <a href='/spark/hachi2009.html'><img src='/images/hachi.png' id='size'></a> 
+
 <a href='/spark/xokittys3.html'><img src='/images/xokittys3.png' id='size'></a>                                                                                                    
 <a href='/spark/xokittys2.html'><img src='/images/xokittys2.png' id='size'></a>                                                                                      
 <a href='/spark/xokittys1.html'><img src='/images/xokittys1.png' id='size'></a>                                                                                   
