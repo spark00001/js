@@ -20,7 +20,7 @@ function music() {
     document.getElementById("catview").style.display= `none`;
     document.getElementById("export").style.display= `none`;
     <!-- end -->
-    document.getElementById("audiomsg").innerHTML= `THIS SECTION IS UNDER MAINTAINANCE`;
+    document.getElementById("audiomsg").innerHTML= `<div style='color:gold;font-size:25px;'>THIS SECTION IS UNDER MAINTAINANCE</div>`;
     document.getElementById("audio").style.display = `none`;
     document.getElementById("songsrch").style.display= `none`;
     document.getElementById("songsrch").innerHTML = `
