@@ -9,6 +9,7 @@ document.getElementById("spark").innerHTML = `
 `;
 
 function music() {
+    document.getElementById("audiomsg").innerHTML= `THIS SECTION IS UNDER MAINTAINANCE`;
     document.getElementById("audio").style.display = `none`;
     document.getElementById("songsrch").style.display= `none`;
     document.getElementById("songsrch").innerHTML = `
