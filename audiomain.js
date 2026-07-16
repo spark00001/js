@@ -46,7 +46,7 @@ function audiomain(){
         </div>                   
                 <div id='song'>
                     <audio id='bodyguardtitle_play1'>
-                        <source src='/hindi-music/Bodyguard Title Song Feat. Salman Khan, Katrina Kaif.mp3'></source>
+                        <source src='https://github.com/spark00001/hindi-music/raw/refs/heads/main/Bodyguard%20Title%20Song%20Feat.%20Salman%20Khan,%20Katrina%20Kaif.mp3'></source>
                     </audio>
                     <table>
                         <tr>
@@ -68,7 +68,7 @@ function audiomain(){
                 </div>                                                                                                                                                         
                 <div id='song'>
                     <audio id='iloveyou_play1'>
-                        <source src='/hindi-music/I love You (Song) Bodyguard feat. Salman khan, Kareena Kapoor.mp3'></source>
+                        <source src='https://github.com/spark00001/hindi-music/raw/refs/heads/main/I%20love%20You%20(Song)%20Bodyguard%20feat.%20Salman%20khan,%20Kareena%20Kapoor.mp3'></source>
                     </audio>
                     <table>
                         <tr>
