@@ -106,7 +106,7 @@ function songs() {
             document.getElementById("audio").innerHTML = `
                 <div id='song'>
             <audio id='iloveyou_play1'>
-                <source src='/hindi-music/Bodyguard Title Song Feat. Salman Khan, Katrina Kaif.mp3'></source>
+                <source src='/hindi-music/I love You (Song) Bodyguard feat. Salman khan, Kareena Kapoor.mp3'></source>
             </audio>
             <table>
                 <tr>
@@ -132,31 +132,68 @@ function songs() {
         case "bodyguard":
             document.getElementById("audio").innerHTML = `
                 <div id='song'>
+                    <audio id='terimeripremkahani_play1'>
+                        <source src='https://github.com/spark00001/hindi-music/raw/refs/heads/main/Teri%20Meri.mp3'></source>
+                    </audio>
                     <table>
                         <tr>
-                            <td><p id='titleimg' onclick='terimeripremkahani()'><img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'></p></td>
-                            <td><p id='mtitle' onclick='terimeripremkahani()'>TERI MERI PREM KAHANI</p></td>
-                            <td><p id='terimeripremkahani_button'></p></td>
+                            <td>
+                                <p id='titleimg'>
+                                    <img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'>
+                                </p>
+                            </td>
+                            <td>
+                                <p id='mtitle'><marquee style='width:96px;'>TERI MERI PREM KAHANI</marquee></p>
+                            </td>
+                            <td>
+                                <div id='terimeripremkahani_button' style='color:gold; font-size:20px; position:relative; left:50px;'>
+                                    <span onclick='terimeripremkahani_play()' style='cursor:pointer;'>&#9654;</span>
+                                </div>
+                            </td>
                         </tr>
                     </table>
-                </div> 
-                <br>
+                </div>             
                 <div id='song'>
+                    <audio id='bodyguardtitle_play1'>
+                        <source src='/hindi-music/Bodyguard Title Song Feat. Salman Khan, Katrina Kaif.mp3'></source>
+                    </audio>
                     <table>
                         <tr>
-                            <td><p id='titleimg' onclick='bodyguard_title()'><img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'></p></td>
-                            <td><p id='mtitle' onclick='bodyguard_title()'>BODYGUARD TITLE</p></td>
-                            <td><p id='terimeripremkahan_button'></p></td>
+                            <td>
+                                <p id='titleimg'>
+                                    <img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'>
+                                </p>
+                            </td>
+                            <td>
+                                <p id='mtitle'><marquee STYLE='width:96px;'>BODYGUARD TITLE</marquee></p>
+                            </td>
+                            <td>
+                                <div id='bodyguardtitle_button' style='color:gold; font-size:20px; position:relative; left:50px;'>
+                                    <span onclick='bodyguardtitle_play()' style='cursor:pointer;'>&#9654;</span>
+                                </div>
+                            </td>
                         </tr>
                     </table>
-                </div> 
-                <BR>
+                </div>                                                                                                                                                         
                 <div id='song'>
+                    <audio id='iloveyou_play1'>
+                        <source src='/hindi-music/I love You (Song) Bodyguard feat. Salman khan, Kareena Kapoor.mp3'></source>
+                    </audio>
                     <table>
                         <tr>
-                            <td><p id='titleimg' onclick='bodyguard_iloveyou()'><img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'></p></td>
-                            <td><p id='mtitle' onclick='bodyguard_iloveyou()'>I LOVE YOU</p></td>
-                            <td><p id='terimeripremkahan_button'></p></td>
+                            <td>
+                                <p id='titleimg'>
+                                    <img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'>
+                                </p>
+                            </td>
+                            <td>
+                                <p id='mtitle'><marquee STYLE='width:96px;'>I LOVE YOU</marquee></p>
+                            </td>
+                            <td>
+                                <div id='iloveyou_button' style='color:gold; font-size:20px; position:relative; left:50px;'>
+                                    <span onclick='iloveyou_play()' style='cursor:pointer;'>&#9654;</span>
+                                </div>
+                            </td>
                         </tr>
                     </table>
                 </div>
