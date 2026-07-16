@@ -1,4 +1,17 @@
- function iloveyou_play() {
+ function terimeripremkahani_play() {
+            let music = document.getElementById("terimeripremkahani_play1");
+            if (music) music.play();
+            
+            document.getElementById("terimeripremkahani_button").innerHTML = `<span onclick='terimeripremkahani_pause()' style='cursor:pointer;'>&#9208;</span>`;
+        }
+
+        function terimeripremkahani_pause() {
+            let music = document.getElementById("terimeripremkahani_play1");
+            if (music) music.pause();
+            
+            document.getElementById("terimeripremkahani_button").innerHTML = `<span onclick='terimeripremkahani_play()' style='cursor:pointer;'>&#9654;</span>`;
+        } 
+function iloveyou_play() {
             let music = document.getElementById("iloveyou_play1");
             if (music) music.play();
             
