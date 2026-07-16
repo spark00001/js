@@ -43,50 +43,50 @@ function audiomain(){
                     </td>
                 </tr>
             </table>
-        </div>             
-        <div id='song'>
-            <audio id='bodyguardtitle_play1'>
-                <source src='/hindi-music/Bodyguard Title Song Feat. Salman Khan, Katrina Kaif.mp3'></source>
-            </audio>
-            <table>
-                <tr>
-                    <td>
-                        <p id='titleimg'>
-                            <img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'>
-                        </p>
-                    </td>
-                    <td>
-                        <p id='mtitle'><marquee STYLE='width:96px;'>BODYGUARD TITLE</marquee></p>
-                    </td>
-                    <td>
-                        <div id='bodyguardtitle_button' style='color:gold; font-size:20px; position:relative; left:50px;'>
-                            <span onclick='bodyguardtitle_play()' style='cursor:pointer;'>&#9654;</span>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>                                                                                                                                                         
-        <div id='song'>
-            <audio id='iloveyou_play1'>
-                <source src='/hindi-music/Bodyguard Title Song Feat. Salman Khan, Katrina Kaif.mp3'></source>
-            </audio>
-            <table>
-                <tr>
-                    <td>
-                        <p id='titleimg'>
-                            <img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'>
-                        </p>
-                    </td>
-                    <td>
-                        <p id='mtitle'><marquee STYLE='width:96px;'>I LOVE YOU</marquee></p>
-                    </td>
-                    <td>
-                        <div id='iloveyou_button' style='color:gold; font-size:20px; position:relative; left:50px;'>
-                            <span onclick='iloveyou_play()' style='cursor:pointer;'>&#9654;</span>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
+        </div>                   
+                <div id='song'>
+                    <audio id='bodyguardtitle_play1'>
+                        <source src='/hindi-music/Bodyguard Title Song Feat. Salman Khan, Katrina Kaif.mp3'></source>
+                    </audio>
+                    <table>
+                        <tr>
+                            <td>
+                                <p id='titleimg'>
+                                    <img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'>
+                                </p>
+                            </td>
+                            <td>
+                                <p id='mtitle'><marquee STYLE='width:96px;'>BODYGUARD TITLE</marquee></p>
+                            </td>
+                            <td>
+                                <div id='bodyguardtitle_button' style='color:gold; font-size:20px; position:relative; left:50px;'>
+                                    <span onclick='bodyguardtitle_play()' style='cursor:pointer;'>&#9654;</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>                                                                                                                                                         
+                <div id='song'>
+                    <audio id='iloveyou_play1'>
+                        <source src='/hindi-music/I love You (Song) Bodyguard feat. Salman khan, Kareena Kapoor.mp3'></source>
+                    </audio>
+                    <table>
+                        <tr>
+                            <td>
+                                <p id='titleimg'>
+                                    <img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'>
+                                </p>
+                            </td>
+                            <td>
+                                <p id='mtitle'><marquee STYLE='width:96px;'>I LOVE YOU</marquee></p>
+                            </td>
+                            <td>
+                                <div id='iloveyou_button' style='color:gold; font-size:20px; position:relative; left:50px;'>
+                                    <span onclick='iloveyou_play()' style='cursor:pointer;'>&#9654;</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
     `;
 }
