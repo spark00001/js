@@ -1,5 +1,16 @@
 
 function music() {
+    <!-- id block section -->
+    document.getElementById("as").style.display = `none`;
+    document.getElementById("navbars").style.display= `none`;
+    document.getElementById("message").style.display= `none`;
+    document.getElementById("noti").style.display= `none`;
+    document.getElementById("throwout").style.display= `none`;
+    document.getElementById("upcoming").style.display= `none`;
+    document.getElementById("actors").style.display= `none`;
+    document.getElementById("catview").style.display= `none`;
+    document.getElementById("export").style.display= `none`;
+    <!-- end -->
     document.getElementById("songsrch").innerHTML = `
         <br>
         <input id='inputaudio' onkeyup='audio_database()' type='text' placeholder='Search songs...'>
