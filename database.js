@@ -63,15 +63,27 @@ function songs() {
         case "teri meri prem kahani":
             document.getElementById("audio").innerHTML = `
                 <div id='song'>
+                    <audio id='terimeripremkahani_play1'>
+                        <source src='https://github.com/spark00001/hindi-music/raw/refs/heads/main/Teri%20Meri.mp3'></source>
+                    </audio>
                     <table>
                         <tr>
-                            <td><p id='titleimg' onclick='terimeripremkahani()'><img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'></p></td>
-                            <td><p id='mtitle' onclick='terimeripremkahani()'>TERI MERI PREM KAHANI</p></td>
-                            <td><p id='terimeripremkahani_button'></p></td>
-                            <td onclick='d_terimeripremkahani()'><i class='fa fa-download' style='color:gold;'></i>DOWNLOAD</td>
+                            <td>
+                                <p id='titleimg'>
+                                    <img src='https://i1.sndcdn.com/artworks-000105449528-hgc39r-t500x500.jpg' class='music'>
+                                </p>
+                            </td>
+                            <td>
+                                <p id='mtitle'><marquee style='width:96px;'>TERI MERI PREM KAHANI</marquee></p>
+                            </td>
+                            <td>
+                                <div id='terimeripremkahani_button' style='color:gold; font-size:20px; position:relative; left:50px;'>
+                                    <span onclick='terimeripremkahani_play()' style='cursor:pointer;'>&#9654;</span>
+                                </div>
+                            </td>
                         </tr>
                     </table>
-                </div>
+                </div>             
             `;
             break;
             
@@ -155,7 +167,7 @@ function songs() {
                 </div>             
                 <div id='song'>
                     <audio id='bodyguardtitle_play1'>
-                        <source src='https://github.com/spark00001/hindi-music/raw/refs/heads/main/Bodyguard%20Title%20Song%20Feat.%20Salman%20Khan,%20Katrina%20Kaif.mp3'></source>
+                        <source src='https://github.com/spark00001/hindi-music/raw/refs/heads/main/bodyguard_title.mp3'></source>
                     </audio>
                     <table>
                         <tr>
@@ -177,7 +189,7 @@ function songs() {
                 </div>                                                                                                                                                         
                 <div id='song'>
                     <audio id='iloveyou_play1'>
-                        <source src='https://github.com/spark00001/hindi-music/raw/refs/heads/main/I%20love%20You%20(Song)%20Bodyguard%20feat.%20Salman%20khan,%20Kareena%20Kapoor.mp3'></source>
+                        <source src='https://github.com/spark00001/hindi-music/raw/refs/heads/main/i_love_you.mp3'></source>
                     </audio>
                     <table>
                         <tr>
