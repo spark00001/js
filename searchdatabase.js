@@ -65,10 +65,6 @@ document.getElementById("exportsearch").innerHTML = `
         <p>LIVE TELECAST<BR>SEASON 1<br>(2021)</p>
       </div>
       <div class='image-item'>
-        <img src='' alt='' onclick=';'>
-        <p></p>
-      </div>
-      <div class='image-item'>
         <img src='https://spark00001.github.io//images/campus_diaries.png' alt='CAMPUS DIARiES' onclick='campus_diaries();'>
         <p>CAMPUS DIARIES<BR>SEASON 1<br>(2022)</p>
       </div>
