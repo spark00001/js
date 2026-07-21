@@ -1,11 +1,12 @@
-function searches(){
-	    var inputs = document.getElementById("takeinpr").value;
-	   if(inputs == "campus diaries"){
-	   document.getElementById("srchs").innerHTML="<p id='loading'></p>";
-	   const loading = setTimeout(ld,0000);
-	    const view = setTimeout(campusdiaries,000);
-	    }
-	    if(inputs == ""){
-	    const view = setTimeout(reset,0000);
-	    }
- }
+function searchdb(){
+var search = document.getElementById("usrsearch").value;
+switch(search.toLowerCase()){
+case "adam project":
+sysoutput = "<!--<div class='image-item'><img src='/images/movie-3.png' onclick='adam_project();'><p>ADAM PROJECT<br>(2022)</p></div>--><div id='adamproject'></div>";
+break;
+default:
+sysoutput ="<div id='notfound'>Not Found</div>";
+break;
+}
+document.getElementById("exportsearch").innerHTML=sysoutput;
+}
