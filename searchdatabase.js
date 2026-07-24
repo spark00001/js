@@ -1,4 +1,6 @@
-document.getElementById("exportsearch").innerHTML = `
+searchdatabase();
+function searchdatabase(){
+document.getElementById("exportsearch").innerHTML =`
     <div id='gallery' class='gallery'>
       <div class='image-item'>            
         <img src='/images/honeymoonsehatya.png' alt='honeymoon se hatya' onclick='honeymoonsehatya();'> 
@@ -63,6 +65,10 @@ document.getElementById("exportsearch").innerHTML = `
       <div class='image-item'>
         <img src='/south/live_telecast.png' alt='live telecast' onclick='live_telecast();'>
         <p>LIVE TELECAST<BR>SEASON 1<br>(2021)</p>
+      </div>
+      <div class='image-item'>
+        <img src='' alt='' onclick=';'>
+        <p></p>
       </div>
       <div class='image-item'>
         <img src='https://spark00001.github.io//images/campus_diaries.png' alt='CAMPUS DIARiES' onclick='campus_diaries();'>
@@ -247,3 +253,4 @@ document.getElementById("exportsearch").innerHTML = `
       </div>
     </div>
   `;
+}
