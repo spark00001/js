@@ -4,6 +4,10 @@ document.getElementById("export").innerHTML=`
 <div id='gallery' class='gallery'>    <!--2025-->   
 
 <div class='image-item'>           
+ <img src='/south/writtenanddirectedbygod.png' alt='WRITTEN AND DIRECTED BY GOD' onclick='writtenanddirectedbygod();' class='effect'> <p>WRITTEN AND<BR>DIRECTED BY<BR>GOD(2025)</p>     
+</div>
+
+<div class='image-item'>           
  <img src='/south/blast.png' alt='blast' onclick='blast();' class='effect'> <p>BLAST<BR>(2026)</p>     
 </div>
 
