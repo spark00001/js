@@ -1,5 +1,6 @@
 document.getElementById("as").innerHTML=`
 <div class='scroll-container'>     
+<a href='/spark/writtenanddirectedbygod.html'><img src='/south/writtenanddirectedbygod.png' id='size'></a> 
 
 <a href='/spark/blast.html'><img src='/south/blast.png' id='size'></a> 
 
