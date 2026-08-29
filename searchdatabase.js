@@ -1,6 +1,6 @@
 searchdatabase();
 function searchdatabase(){
-document.getElementById("exportsearch").innerHTML =`
+document.getElementById("export").innerHTML =`
     <div id='gallery' class='gallery'>
       <div class='image-item'>            
         <img src='/images/honeymoonsehatya.png' alt='honeymoon se hatya' onclick='honeymoonsehatya();'> 
