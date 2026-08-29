@@ -1,7 +1,40 @@
 searchdatabase();
 function searchdatabase(){
+    south_retrive();
+    function south_retrive(){
+        south();
+        const s = setTimeout(hollywood_retrive,5000);
+    }
+    function hollywood_retrive(){
+        hollywood();
+        const h = setTimeout(punjabi_retrive,5000);
+    }
+    function punjabi_retrive(){
+        punjabi();
+        const b = setTimeout(bollywood_retrive,5000);
+    }
+    function bollywood_retrive(){
+        bollywood();
+        const o = setTimeout(ollywood_retrive,5000);
+    }
+    function ollywood_retrive(){
+        ollywood();
+        const c = setTimeout(chinese_retrive,5000);
+    }
+    function chinese_retrive(){
+        chinese();
+        const k = setTimeout(korean_retrive,5000);
+    }
+    function korean_retrive(){
+        korean();
+        const w = setTimeout(webseries_retrive,5000);
+    }
+    function webseries_retrive(){
+        webseries();
+        const f = setTimeout(south_retrive,5000);
+    }
 document.getElementById("export").innerHTML =`
-    <div id='gallery' class='gallery'>
+   <!-- <div id='gallery' class='gallery'>
       <div class='image-item'>            
         <img src='/images/honeymoonsehatya.png' alt='honeymoon se hatya' onclick='honeymoonsehatya();'> 
         <p>HONEYMOON SE <br>HATYA<BR>(2026)</p>        
@@ -247,6 +280,6 @@ document.getElementById("export").innerHTML =`
         <a href='/spark/free_guy.html'><img src='/images/movie-4.png' onclick='free_guy();'></a>            
         <p>FREE GUY <br>(2021)</p>        
       </div>
-    </div>
+    </div>-->
   `;
 }
