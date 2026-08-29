@@ -33,7 +33,7 @@ function searchdatabase(){
         webseries();
         const f = setTimeout(south_retrive,5000);
     }
-document.getElementById("export").innerHTML =`
+<!--document.getElementById("export").innerHTML =`
    <!-- <div id='gallery' class='gallery'>
       <div class='image-item'>            
         <img src='/images/honeymoonsehatya.png' alt='honeymoon se hatya' onclick='honeymoonsehatya();'> 
@@ -281,5 +281,5 @@ document.getElementById("export").innerHTML =`
         <p>FREE GUY <br>(2021)</p>        
       </div>
     </div>-->
-  `;
+  `;-->
 }
