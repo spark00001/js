@@ -4,7 +4,7 @@ var search = document.getElementById("usrsearch").value;
 switch(search.toLowerCase().trim()){
 case "adam project":
 sysoutput = adamprojectjs();
-document.getElementById("exportsearch").innerHTML=sysoutput;
+document.getElementById("export").innerHTML=sysoutput;
 break;
 default:
 searchdatabase(); // Handles innerHTML assignment on its own
