@@ -2,35 +2,31 @@ searchdatabase();
 function searchdatabase(){
     south_retrive();
     function south_retrive(){
-        south();
+        import {south} from '/js/south.js';
         const s = setTimeout(hollywood_retrive,5000);
     }
     function hollywood_retrive(){
-        hollywood();
-        const h = setTimeout(punjabi_retrive,5000);
-    }
-    function punjabi_retrive(){
-        punjabi();
-        const b = setTimeout(bollywood_retrive,5000);
+        import {hollywood} from '/js/hollywood.js';
+        const h = setTimeout(bollywood_retrive,5000);
     }
     function bollywood_retrive(){
-        bollywood();
+       import {bollywood} from '/js/bollywood.js';
         const o = setTimeout(ollywood_retrive,5000);
     }
     function ollywood_retrive(){
-        ollywood();
+        import {ollywood} from '/js/ollywood.js';
         const c = setTimeout(chinese_retrive,5000);
     }
     function chinese_retrive(){
-        chinese();
+       import {chinese} from '/js/chinese.js';
         const k = setTimeout(korean_retrive,5000);
     }
     function korean_retrive(){
-        korean();
+        import {korean} from '/js/korean.js';
         const w = setTimeout(webseries_retrive,5000);
     }
     function webseries_retrive(){
-        webseries();
+        import {webseries} from '/js/webseries.js';
         const f = setTimeout(south_retrive,5000);
     }
 <!--document.getElementById("export").innerHTML =`
