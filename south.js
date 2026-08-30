@@ -1,5 +1,4 @@
-
-export function southmovies(){ 
+function southmovies(){ 
 document.getElementById("export").innerHTML=`
 <div id='gallery' class='gallery'>    <!--2025-->   
 
