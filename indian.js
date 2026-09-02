@@ -1,6 +1,6 @@
 livetvview();
 function livetvview() {
-  document.getElementById("export").innerHTML = `
+  return `
     <div id='gallery' class='gallery'>
       <div class='image-item'><img src='/channel/starsports.png' onclick='starsports()'><p>STAR SPORTS HINDI</p></div>
       <div class='image-item'><img src='/channel/andtv.png' onclick='andtv()'><p>AND TV</p></div>
