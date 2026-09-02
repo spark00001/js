@@ -1,7 +1,7 @@
 var get="";
 function universalsearch(){
 get = srchdb();
-document.getElementById("export").innerHTML=t;
+document.getElementById("export").innerHTML=get;
 const ids = [
   "throwout",
   "srchs",
