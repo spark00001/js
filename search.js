@@ -4,10 +4,11 @@ var search = document.getElementById("usrsearch").value;
 switch(search.toLowerCase().trim()){
 case "adam project":
 sysoutput = adamprojectjs();
-document.getElementById("export").innerHTML=sysoutput;
+document.getElementById("exportsearch").innerHTML=sysoutput;
+document.getElementById("export").style.display="none";
 break;
 default:
-searchdatabase(); // Handles innerHTML assignment on its own
+ document.getElementById("export").style.display="auto";
 break;
 }
 }
