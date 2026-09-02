@@ -8,7 +8,7 @@ document.getElementById("exportsearch").innerHTML=sysoutput;
 document.getElementById("export").style.display="none";
 break;
 default:
- document.getElementById("export").style.display="auto";
+ livetvview();
 break;
 }
 }
