@@ -7,7 +7,8 @@ sysoutput = adamprojectjs();
 document.getElementById("export").innerHTML=sysoutput;
 break;
 default:
- document.getElementById("export").innerHTML=livetvview();
+sysoutput = livetvview();
+document.getElementById("export").innerHTML=sysoutput;
 break;
 }
 }
