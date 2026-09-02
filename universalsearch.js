@@ -1,3 +1,7 @@
+var get="";
+function universalsearch(){
+get = srchdb();
+document.getElementById("export").innerHTML=t;
 const ids = [
   "throwout",
   "srchs",
@@ -17,10 +21,7 @@ const ids = [
   const el = document.getElementById(id);
   if (el) el.style.display = "none";
 });
-
-var get="";
-get = srchdb();
-document.getElementById("export").innerHTML=t;
+}
 function srchdb(){
 return `
 
