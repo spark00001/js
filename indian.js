@@ -1,4 +1,3 @@
-livetvview();
 function livetvview() {
   return `
     <div id='gallery' class='gallery'>
