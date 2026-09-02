@@ -1,4 +1,3 @@
-var reloadhome = livetvview();
 var sysoutput = "";
 function searchdb(){
 var search = document.getElementById("usrsearch").value;
@@ -8,7 +7,7 @@ sysoutput = adamprojectjs();
 document.getElementById("export").innerHTML=sysoutput;
 break;
 default:
- document.getElementById("export").innerHTML=reloadhome;
+ document.getElementById("export").innerHTML=livetvview();
 break;
 }
 }
