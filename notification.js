@@ -39,8 +39,8 @@ location.reload();
 }
 
 document.getElementById("msg").innerHTML=` <!--
-<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='' onclick='op()'><embed onclick='op()' src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p>
--->`;
+<p style='cursor:pointer;padding:10px;background-color:gold;color:black; outline:3px solid red;width:25px;height:25;border-radius:50%;'id='' onclick='op()'><embed onclick='op()' src='https://spark00001.github.io/images/notification.png' style='width:25px;height:25px;'></embed></p>-->
+`;
 
 
 document.getElementById("mail").innerHTML=`
