@@ -10,10 +10,6 @@ case "adam project":
 sysoutput = adamprojectjs();
 document.getElementById("export").innerHTML=sysoutput;
 break;
-  case "":
-sysoutput = livetvview();
-document.getElementById("export").innerHTML=sysoutput;
-break;
 default:
 sysoutput = livetvview();
 document.getElementById("export").innerHTML=sysoutput;
