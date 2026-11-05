@@ -6,7 +6,7 @@ return `
 <form class="auto-search-wrapper"">
   <i class="fa-solid fa-magnifying-glass auto-search-icon"></i>
   <input type="text" id="usrsearch" class="auto-search-input" placeholder="Search..." autocomplete="on" required/>
-  <button type="button" onclick="searchdb()" onkeyup="searchdb()" class="auto-search-btn" aria-label="Search">
+  <button type="button" onclick="searchdb()" onkeypress="searchdb()" class="auto-search-btn" aria-label="Search">
     <span class="auto-search-btn-text">Search</span>
     <i class="fa-solid fa-arrow-right"></i>
   </button>
