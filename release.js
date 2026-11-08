@@ -9,7 +9,7 @@ document.getElementById("export").innerHTML=`
 <div class='image-item'>            <img src='/south/mahendragirivarahi.png' alt='mahendra giri varahi' onclick='mahendragirivarahi();'> <p>MAHENDRA GIRI<BR>VARAHI(2026)</p>     </div>   
 <div class='image-item'>            <img src='/south/ohsukumari.png' alt='oh..sukumari' onclick='ohsukumari();'> <p>OH!.SUKUMARI<BR>(2026)</p>     </div> 
 <div class='image-item'>            <img src='/images/ramayana.png' alt='ramayana' onclick='ramayana();'> <p>RAMAYANA<BR>(2026)</p>     </div>
-<div class='image-item'>            <img src='/images/scene.png' alt='scene' onclick='scene();'> <p>SCENE<BR>(2026)</p>     </div>    </div>
+<div class='image-item'>            <img src='/south/scene.png' alt='scene' onclick='scene();'> <p>SCENE<BR>(2026)</p>     </div>    </div>
 <!--<mark>PENDING..</mark>-->`;
 }
 
