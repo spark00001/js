@@ -1,4 +1,14 @@
 function upcomings(){ 
-document.getElementById("export").innerHTML="<div id='gallery' class='gallery'>                  <!--<div class='image-item'>            <img src='/images/chiraiya.png' alt='chiraiya' onclick='chiriaya();'> <p>CHIRAIYA<BR>(2026)</p>        </div>  -->                                                                                                                                    <!-- <div class='image-item'>            <img src='/bollywood-/srikanth.png' alt='srikanth' onclick='srikanth();'> <p>SRIKANTH<BR>(2024)</p>        </div>  -->           <!--<div class='image-item'>            <img src='/south/bharthamahasayulakuwignyapthi.png' alt='bhartha mahasayulaku wignyapthi' onclick='bharthamahasayulakuwignyapthi();'> <p>BHARTHA<br>MAHASAYULAKU<BR>WIGNYAPTHI<BR>(2026)</p>        </div>   -->                     <!-- <div class='image-item'>            <img src='/images/xokittys1.png' alt='xo kitty season 1' onclick='xokittys1();'> <p>XO KITTY<br>SEASON-1<BR>(2026)</p>        </div> -->          <!-- <div class='image-item'>            <img src='/images/xokittys2.png' alt='xo kitty season-2' onclick='xokittys2();'> <p> XO KITTY<BR>SEASON-2<BR>(2026)</p>        </div>  -->                    <div class='image-item'>            <img src='/images/ohhmydog.png' alt='ohh my dog' onclick='ohhmydog();'> <p>OHH MY<BR>DOG (2026)</p>     </div>    </div><!--<mark>PENDING..</mark>-->";
+document.getElementById("export").innerHTML=`
+         <div class='image-item'>            <img src='/images/ohhmydog.png' alt='ohh my dog' onclick='ohhmydog();'> <p>OHH MY<BR>DOG (2026)</p>     </div>    </div><!--<mark>PENDING..</mark>-->
+<div class='image-item'>            <img src='/south/darkheaven.png' alt='dark heaven' onclick='darkheaven();'> <p>DARK HEAVEN<BR>(2026)</p>     </div>    </div>
+<div class='image-item'>            <img src='/images/heartofthebeast.png' alt='heart of the beast' onclick='heartofthebeast();'> <p>HEART OF<BR>THE BEAST<BR>(2026)</p>     </div>    </div>
+<div class='image-item'>            <img src='/south/imgame.png' alt='im game' onclick='imgame();'> <p>I'M GAME<BR>(2026)</p>     </div>    </div>
+<div class='image-item'>            <img src='/south/jailer2.png' alt='jailer2' onclick='jailer2();'> <p>JAILER 2<BR>(2026)</p>     </div>    </div>
+<div class='image-item'>            <img src='/south/mahendragirivarahi.png' alt='mahendra giri varahi' onclick='mahendragirivarahi();'> <p>MAHENDRA GIRI<BR>VARAHI(2026)</p>     </div>    </div>
+<div class='image-item'>            <img src='/south/ohsukumari.png' alt='oh..sukumari' onclick='ohsukumari();'> <p>OH!.SUKUMARI<BR>(2026)</p>     </div>    </div>
+<div class='image-item'>            <img src='/images/ramayana.png' alt='ramayana' onclick='ramayana();'> <p>RAMAYANA<BR>(2026)</p>     </div>    </div>
+<div class='image-item'>            <img src='/images/scene.png' alt='scene' onclick='scene();'> <p>SCENE<BR>(2026)</p>     </div>    </div>
+<!--<mark>PENDING..</mark>-->`;
 }
 
